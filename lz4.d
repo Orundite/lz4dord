@@ -63,7 +63,7 @@ enum LZ4_VERSION_NUMBER =
     LZ4_VERSION_MINOR * 100 +
     LZ4_VERSION_RELEASE;
 
-enum LZ4_LIB_VERSION = "1.11.0";
+enum LZ4_LIB_VERSION = "1.11.1";
 enum LZ4_VERSION_STRING = LZ4_LIB_VERSION;
 
 int LZ4_versionNumber();  /**< library version number; useful to check dll version; requires v1.3.0+ */
